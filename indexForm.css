@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container img{
+    height: 100vh;
+    width:100vw;
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.contact{text-align: center;
+    bottom: 40px;
+    position:absolute;
+    left: 50%;
+    top: 30%;
+    height: 400px;
+    width: 400px;
+    background: rgba(230, 218, 167, 0.671);
+        box-shadow: 0 8px 32px 0 rgba(255, 202, 26, 0.55);
+        backdrop-filter: blur( 2.0px);
+        -webkit-backdrop-filter: blur( 2.0px);
+        border-radius: 10px;
+
+}
